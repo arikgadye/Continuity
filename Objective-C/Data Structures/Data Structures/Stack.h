@@ -15,10 +15,11 @@
 
 -(id)init;
 -(void)initWithSize:(int)stackSize;
--(void)push:(int)number;
+-(void)push:(int)newNumber;
 -(void)pop;
 -(NSInteger)stackCount;
 -(id)getElementValue :(int)atPosition;
 -(void)printStack;
+-(void)showStackExample :(Stack *)myStack;
 
 @end
