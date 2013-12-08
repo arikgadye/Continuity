@@ -127,9 +127,9 @@ def runStackExample
 	# Should return second position from the top. (In this case value of 40.)
 	mystack.getElementValue(2)
 
-	# Printing the value of n, in this case 3, elements from the top.
+	# Printing the value of n, in this case 4, elements from the top.
 	# Should return third position from the top. (In this case the bottom of the stack.)
-	mystack.getElementValue(3)
+	mystack.getElementValue(4)
 	puts ""
 
 	# Popping off all elements in the stack
